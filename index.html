@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mines</title>
+
+    <link rel="shortcut icon" type="image/png" href="src/assets/cog.png">
+    <link rel="stylesheet" href="/src/assets/styles.css">
+</head>
+<body>
+    <h1 class="game-sign">Minesweeper</h1>
+    <section class="options-box">
+        <button class="option easy">
+            <p class="option-text">8 x 8</p>
+            <p class="option-text">10 mines</p>
+        </button>
+        <button class="option medium">
+            <p class="option-text">16 x 16</p>
+            <p class="option-text">40 mines</p>
+        </button>
+        <button class="option hard">
+            <p class="option-text">30 x 16</p>
+            <p class="option-text">99 mines</p>
+        </button>
+    </section>
+
+    <section class="game-board">
+        <div class="grid"></div>
+        <div class="side-view"></div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/src/main.js" type="module"></script>
+</body>
+</html>
